@@ -8,7 +8,7 @@ This Cloudflare Worker is responsible for generating images to accompany the sto
 
 ### Workflow:
 1. **Receive Request**: The worker receives a request from the LearnWhy frontend, providing the necessary parameters for image generation.
-2. **Generate Image**: Using the @cf/bytedance/stable-diffusion-xl-lightning model, the worker generates an image based on the provided parameters.
+2. **Generate Image**: Using the stable-diffusion-xl-lightning model, the worker generates an image based on the provided parameters.
 3. **Return Image**: The generated image is returned as a response to the frontend, ready to be displayed alongside the corresponding story.
 
 ### Installation:
