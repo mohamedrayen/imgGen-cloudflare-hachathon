@@ -26,13 +26,12 @@ This Cloudflare Worker is responsible for generating images to accompany the sto
 ```
 
 ### Installation:
-### Installation:
 1. Clone this repository.
 2. Install dependencies using npm: 
-```shell
+```sh
 npm install
 ```
 3. Deploy the worker to your Cloudflare account using Wrangler:
-```shell
+```sh
 wrangler publish
 ```
