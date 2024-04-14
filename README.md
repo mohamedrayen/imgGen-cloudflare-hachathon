@@ -11,6 +11,20 @@ This Cloudflare Worker is responsible for generating images to accompany the sto
 2. **Generate Image**: Using the stable-diffusion-xl-lightning model, the worker generates an image based on the provided parameters.
 3. **Return Image**: The generated image is returned as a response to the frontend, ready to be displayed alongside the corresponding story.
 
+### Input Structure:**
+```json
+{
+  "story": "The story generated from story generator worker"
+}
+```
+
+### Output Structure:
+```json
+{
+  "response": "The image generated"
+}
+```
+
 ### Installation:
 1. Clone this repository.
 2. Install dependencies using npm: `npm install`.
